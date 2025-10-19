@@ -2,8 +2,7 @@
 
 A lightweight, always-on-top system monitoring widget for your desktop. Keep an eye on your system resources with this cute, customizable floating monitor.
 
-![NekoMonitor Screenshot](https://via.placeholder.com/400x200/1a1a1a/ff6a00?text=🐱+NekoMonitor)
-
+![NekoMonitor Screenshot](https://raw.githubusercontent.com/justdev-chris/NekoMonitor/refs/heads/main/NekoMonitor_Preview.png)
 ## ✨ Features
 
 ### 📊 Real-time Monitoring
