@@ -1,0 +1,34 @@
+<Window x:Class="NekoMonitor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="NekoMonitor" Height="140" Width="220"
+        WindowStyle="None" AllowsTransparency="True"
+        Background="Transparent" Topmost="True"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    
+    <!-- Floating Stats Panel -->
+    <Border Background="#CC1a1a1a" CornerRadius="12" 
+            BorderBrush="#ff6a00" BorderThickness="1"
+            MouseLeftButtonDown="Window_MouseLeftButtonDown">
+        
+        <Grid Margin="12">
+            <StackPanel>
+                <!-- Header -->
+                <TextBlock Text="🐱 NekoMonitor" Foreground="#ff6a00" 
+                          FontSize="11" FontWeight="Bold" Margin="0,0,0,5"/>
+                
+                <!-- Stats -->
+                <TextBlock x:Name="CpuText" Text="CPU: 0%" Foreground="#00ff00" FontSize="10"/>
+                <TextBlock x:Name="RamText" Text="RAM: 0%" Foreground="#00ff00" FontSize="10"/>
+                <TextBlock x:Name="NetText" Text="NET: 0 KB/s" Foreground="#00ff00" FontSize="10"/>
+                <TextBlock x:Name="DiskText" Text="DISK: 0%" Foreground="#00ff00" FontSize="10"/>
+            </StackPanel>
+            
+            <!-- Close Button -->
+            <Button Content="×" Background="Transparent" BorderThickness="0" 
+                    Foreground="#ff4444" FontSize="14" FontWeight="Bold"
+                    HorizontalAlignment="Right" VerticalAlignment="Top"
+                    Width="20" Height="20" Click="Close_Click"/>
+        </Grid>
+    </Border>
+</Window>
