@@ -31,16 +31,15 @@ A lightweight, always-on-top system monitoring widget for your desktop. Keep an 
 ## 🚀 Quick Start
 
 ### Download & Run
-1. **Download** the latest release from the [Releases page]
-2. **Extract** the ZIP file to any folder
-3. **Run** `NekoMonitor.exe` - no installation required!
-4. **Drag** the widget to your preferred screen position
+1. **Download** the setup from the [Releases page]
+2. **Run** `NekoMonitorSetup.exe` 
+3. **Drag** the widget to your preferred screen position
 
 ### Build from Source
 ```bash
 ```
 # Clone the repository
-git clone https://github.com/yourusername/NekoMonitor.git
+git clone https://github.com/justdev-chris/NekoMonitor.git
 cd NekoMonitor
 
 # Build the application
@@ -54,11 +53,9 @@ dotnet publish -c Release -r win-x64 --self-contained true
 🛠️ System Requirements
 Windows 10/11
 
-.NET 8.0 Runtime (Download here)
-
 4GB RAM minimum
 
-10MB disk space
+170MB disk space
 
 📁 Project Structure
 ```
